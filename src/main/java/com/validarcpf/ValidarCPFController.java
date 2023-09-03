@@ -5,17 +5,20 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+
 @RestController
 public class ValidarCPFController {
     
     @Autowired
-    private ValidarCPF validarCpf;
+    private ValidarCPF validarCPF;
 
-    @GetMapping("/validar")
-    public String validar (@RequestParam String cpf){
+    
+    
+    @GetMapping("/result")
+    public String validar (@RequestParam String cpf) {
 
-        return validarCpf.cpfCalc(cpf);
-
+        return validarCPF.cpfCalc(cpf);
+      
     }
 
 }

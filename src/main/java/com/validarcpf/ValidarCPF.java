@@ -60,10 +60,10 @@ public class ValidarCPF {
            
            if(validar1 == mult101 & validar2 == mult11){
                
-              return "CPF "+cpf+" válido";
+              return "CPF "+cpf+" é válido!";
            }else{
                
-               return "CPF Inválido";
+               return "CPF inválido!";
            }
 
    }
