@@ -1,0 +1,93 @@
+:root {
+    --font-title: "Josefin Sans", sans-serif;
+    --font-text: "Open Sans", sans-serif;
+    --font-button: "Josefin Sans", sans-serif;
+    --font-color: rgb(130, 254, 239);
+  }
+
+h2{
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-variant-caps: small-caps;
+    font-family: var(--font-title);
+    text-align: center;
+    justify-content: center; /*aliamento horizontal*/
+    align-items: center; /*aliamento vestical*/
+    display: flex;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.title-verificarcpf{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 2rem;
+    width: 100%;
+    justify-content: center; /*aliamento horizontal*/
+    align-items: center; /*aliamento vestical*/
+    box-shadow: 0rem 0rem 1rem 0rem #66666641;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 4rem;
+    margin-bottom: 0rem;
+
+
+
+}
+.container-verificarcpf{
+    background-color: rgba(245, 243, 243, 0.411);
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+    text-align: center;
+    align-items: center;
+    border: solid;
+    border-width: 0px;
+    z-index: 1;
+    box-shadow: 0rem 0rem 1rem 0.5rem #66666641;
+    height: 20rem;
+    }
+
+    .label-nome{
+        font-family: var(--font-text);
+        font-size: 1rem;
+        text-transform: uppercase;
+        top: 3rem;
+        position: relative;
+        left: 0;
+    }
+
+    .field{
+        position: relative;
+        border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+        border-top: 0.5px solid rgba(0, 0, 0, 0.3);
+        border-left: 0.5px solid rgba(0, 0, 0, 0.3);
+        border-right: 0.5px solid rgba(0, 0, 0, 0.3);
+        border-radius: 0.2rem;
+        margin-top: 2rem;
+        letter-spacing: 0.1rem;
+        width: 12rem;
+        height: 1.5rem;
+        font-size: 1rem;
+        background: transparent;
+        font-family: var(--font-text);
+    }
+
+    .btn-verificar{
+        font-family: var(--font-button);
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        background-color: #03e7cc;
+        border-radius: 4px;
+        border: none;
+        color: #000000;
+        box-shadow: 0 8px 16px 0 rgba(86, 86, 86, 0.2),
+            0 6px 20px 0 rgba(86, 86, 86, 0.19);
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        position: relative;
+        font-size: 1.8vh;
+        float: center;
+        height: 30px;
+        width: 10rem;
+        margin-top: 1.5rem;
+    }

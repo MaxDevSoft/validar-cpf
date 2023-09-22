@@ -2,12 +2,14 @@ package com.validarcpf;
 
 import org.springframework.context.annotation.Configuration;
 
+
 @Configuration
 public class ValidarCPF {
     
     
     String cpfCalc (String cpf){
 	    
+        
         if (cpf.length() != 11) {
            return "CPF faltando número.";
        }
